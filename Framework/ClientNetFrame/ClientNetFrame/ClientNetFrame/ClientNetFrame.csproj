@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E530B414-8073-4DFD-8ADD-9CF6E891A108}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientNetFrame</RootNamespace>
+    <AssemblyName>ClientNetFrame</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\ServerNetFrame\ServerNetFrame\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ByteArray.cs" />
+    <Compile Include="ConnectFeiledCallBack.cs" />
+    <Compile Include="DebugLogCallBack.cs" />
+    <Compile Include="IHandler.cs" />
+    <Compile Include="InitializeNetIO.cs" />
+    <Compile Include="IOCompression\BlockType.cs" />
+    <Compile Include="IOCompression\CompressionMode.cs" />
+    <Compile Include="IOCompression\CopyEncoder.cs" />
+    <Compile Include="IOCompression\Crc32Helper.cs" />
+    <Compile Include="IOCompression\DeflateInput.cs" />
+    <Compile Include="IOCompression\DeflaterManaged.cs" />
+    <Compile Include="IOCompression\DeflateStream.cs" />
+    <Compile Include="IOCompression\DeflateStreamAsyncResult.cs" />
+    <Compile Include="IOCompression\FastEncoder.cs" />
+    <Compile Include="IOCompression\FastEncoderStatics.cs" />
+    <Compile Include="IOCompression\FastEncoderWindow.cs" />
+    <Compile Include="IOCompression\GZipConstants.cs" />
+    <Compile Include="IOCompression\GZipDecoder.cs" />
+    <Compile Include="IOCompression\GZipFormatter.cs" />
+    <Compile Include="IOCompression\GZipStream.cs" />
+    <Compile Include="IOCompression\HuffmanTree.cs" />
+    <Compile Include="IOCompression\IDeflater.cs" />
+    <Compile Include="IOCompression\IFileFormatReader.cs" />
+    <Compile Include="IOCompression\IFileFormatWriter.cs" />
+    <Compile Include="IOCompression\Inflater.cs" />
+    <Compile Include="IOCompression\InflaterState.cs" />
+    <Compile Include="IOCompression\InputBuffer.cs" />
+    <Compile Include="IOCompression\InvalidDataException.cs" />
+    <Compile Include="IOCompression\Match.cs" />
+    <Compile Include="IOCompression\OutputBuffer.cs" />
+    <Compile Include="IOCompression\OutputWindow.cs" />
+    <Compile Include="MatchState.cs" />
+    <Compile Include="SerializeUtil.cs" />
+    <Compile Include="SocketModel.cs" />
+    <Compile Include="IOCompression\SR.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

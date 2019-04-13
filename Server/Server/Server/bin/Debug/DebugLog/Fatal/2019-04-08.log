@@ -1,0 +1,365 @@
+/************************21:12:24.94************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************21:21:49.82************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:07:53.15************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:08:14.58************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+/************************22:08:14.58************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:08:52.32************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+/************************22:08:52.32************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:12:10.77************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:14:54.63************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:16:18.64************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:16:51.48************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:18:27.12************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:20:05.97************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:22:12.00************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:27:26.00************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:32:08.94************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:32:12.66************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:34:40.17************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************22:41:21.03************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.UserCache.GetOffLine(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\UserCache.cs:行号 133
+   在 Server.Business.LoginBiz.LogOut(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\LoginBiz.cs:行号 85
+   在 Server.Logic.Login.LoginHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Login\LoginHandler.cs:行号 27
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 30
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)

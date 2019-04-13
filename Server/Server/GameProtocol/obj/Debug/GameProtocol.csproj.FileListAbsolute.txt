@@ -1,0 +1,7 @@
+E:\Demo\Client\demo\Assets\Plugin\GameProtocol.dll
+E:\Demo\Client\demo\Assets\Plugin\GameProtocol.pdb
+E:\Demo\Server\Server\GameProtocol\obj\Debug\GameProtocol.csproj.CoreCompileInputs.cache
+E:\Demo\Server\Server\GameProtocol\obj\Debug\GameProtocol.dll
+E:\Demo\Server\Server\GameProtocol\obj\Debug\GameProtocol.pdb
+E:\Demo\Server\Server\GameProtocol\obj\Debug\GameProtocol.csprojAssemblyReference.cache
+E:\Demo\Server\Server\GameProtocol\obj\Debug\GameProtocol.csproj.CopyComplete

@@ -1,0 +1,293 @@
+/************************15:43:58.22************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 31
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************15:45:10.14************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 31
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************16:29:12.79************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+/************************16:36:00.20************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 31
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************16:51:36.47************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 31
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************16:52:18.85************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 31
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:08:16.68************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:12:22.58************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:15:39.21************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:17:13.14************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:20:25.37************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:21:25.97************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:23:08.10************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:24:09.28************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:30:53.79************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Server.Cache.MatchCache.GetStartGame(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 183
+   在 Server.Cache.MatchCache.LeaveMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Cache\MatchCache.cs:行号 230
+   在 Server.Business.MatchBiz.LevelMatch(UserToken token) 位置 E:\Demo\Server\Server\Server\Business\MatchBiz.cs:行号 72
+   在 Server.Logic.Match.MatchHandler.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\Match\MatchHandler.cs:行号 20
+   在 Server.Logic.HandleCenter.ClientClose(UserToken token, String error) 位置 E:\Demo\Server\Server\Server\Logic\HandleCenter.cs:行号 35
+   在 NetFrame.ServerStart.ClientClose(UserToken token, String error)
+   在 NetFrame.ServerStart.ProcessReceive(SocketAsyncEventArgs e)
+   在 NetFrame.ServerStart.IO_Comleted(Object sender, SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   在 System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.Sockets.SocketAsyncEventArgs.FinishOperationSuccess(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   在 System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+/************************17:52:55.44************************/
+Sender:名称:Server.exe
+无上下文策略。
+
+Args:System.NullReferenceException: 未将对象引用设置到对象的实例。

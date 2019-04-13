@@ -1,0 +1,5 @@
+E:\Demo\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\obj\Debug\ServerNetFrame.csproj.CoreCompileInputs.cache
+E:\Demo\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\bin\Debug\ServerNetFrame.dll
+E:\Demo\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\bin\Debug\ServerNetFrame.pdb
+E:\Demo\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\obj\Debug\ServerNetFrame.dll
+E:\Demo\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\obj\Debug\ServerNetFrame.pdb

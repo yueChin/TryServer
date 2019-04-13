@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC5B70F6-39FC-44F3-8ED0-73FCB1F5855B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GameProtocol">
+      <HintPath>..\..\..\Client\demo\Assets\Plugin\GameProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="ServerNetFrame">
+      <HintPath>..\..\..\Framework\ServerNetFrame\ServerNetFrame\ServerNetFrame\bin\Debug\ServerNetFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="ServerTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ServerTools\bin\Debug\ServerTools.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\AliveBiz.cs" />
+    <Compile Include="Business\BizProxy.cs" />
+    <Compile Include="Business\LoginBiz.cs" />
+    <Compile Include="Business\MatchBiz.cs" />
+    <Compile Include="Business\UserBiz.cs" />
+    <Compile Include="Cache\AliveCache.cs" />
+    <Compile Include="Cache\CacheProxy.cs" />
+    <Compile Include="Cache\FightCache.cs" />
+    <Compile Include="Cache\MatchCache.cs" />
+    <Compile Include="Cache\UserCache.cs" />
+    <Compile Include="DAO\RoleInfo.cs" />
+    <Compile Include="Logic\Alive\AliveHandler.cs" />
+    <Compile Include="Logic\Fight\FightHandler.cs" />
+    <Compile Include="Logic\Fight\FightRoom.cs" />
+    <Compile Include="Logic\HandleCenter.cs" />
+    <Compile Include="Logic\Login\LoginHandler.cs" />
+    <Compile Include="Logic\Match\MatchHandler.cs" />
+    <Compile Include="Logic\User\UserHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

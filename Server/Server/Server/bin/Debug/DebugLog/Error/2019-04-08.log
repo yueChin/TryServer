@@ -1,0 +1,28 @@
+10:05:02:7708System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Server.Program.<>c__DisplayClass0_0.<Main>b__3() 位置 E:\Demo\Server\Server\Server\Program.cs:行号 46
+   在 ServerTools.Time.TimeTaskModel.Run() 位置 E:\Demo\Server\Server\ServerTools\Time\TimeTaskModel.cs:行号 41
+   在 ServerTools.Time.ScheduleUtil.CallBack() 位置 E:\Demo\Server\Server\ServerTools\Time\ScheduleUtil.cs:行号 92
+10:05:12:5963System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Server.Program.<>c__DisplayClass0_0.<Main>b__3() 位置 E:\Demo\Server\Server\Server\Program.cs:行号 46
+   在 ServerTools.Time.TimeTaskModel.Run() 位置 E:\Demo\Server\Server\ServerTools\Time\TimeTaskModel.cs:行号 41
+   在 ServerTools.Time.ScheduleUtil.CallBack() 位置 E:\Demo\Server\Server\ServerTools\Time\ScheduleUtil.cs:行号 92
+09:03:43:3025System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Server.Program.<>c__DisplayClass0_0.<Main>b__3() 位置 E:\Demo\Server\Server\Server\Program.cs:行号 46
+   在 ServerTools.Time.TimeTaskModel.Run() 位置 E:\Demo\Server\Server\ServerTools\Time\TimeTaskModel.cs:行号 41
+   在 ServerTools.Time.ScheduleUtil.CallBack() 位置 E:\Demo\Server\Server\ServerTools\Time\ScheduleUtil.cs:行号 92
+09:04:39:6022System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Server.Program.<>c__DisplayClass0_0.<Main>b__3() 位置 E:\Demo\Server\Server\Server\Program.cs:行号 46
+   在 ServerTools.Time.TimeTaskModel.Run() 位置 E:\Demo\Server\Server\ServerTools\Time\TimeTaskModel.cs:行号 41
+   在 ServerTools.Time.ScheduleUtil.CallBack() 位置 E:\Demo\Server\Server\ServerTools\Time\ScheduleUtil.cs:行号 92

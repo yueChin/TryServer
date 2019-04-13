@@ -1,0 +1,8 @@
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\obj\Debug\ClientNetFrame.csproj.CoreCompileInputs.cache
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\bin\Debug\ClientNetFrame.dll
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\bin\Debug\ClientNetFrame.pdb
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\obj\Debug\ClientNetFrame.dll
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\obj\Debug\ClientNetFrame.pdb
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\bin\Debug\protobuf-net.dll
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\obj\Debug\ClientNetFrame.csprojAssemblyReference.cache
+E:\Demo\Framework\ClientNetFrame\ClientNetFrame\ClientNetFrame\obj\Debug\ClientNetFrame.csproj.CopyComplete

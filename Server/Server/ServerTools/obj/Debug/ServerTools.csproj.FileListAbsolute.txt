@@ -1,0 +1,6 @@
+E:\Demo\Server\Server\ServerTools\bin\Debug\ServerTools.dll
+E:\Demo\Server\Server\ServerTools\bin\Debug\ServerTools.pdb
+E:\Demo\Server\Server\ServerTools\obj\Debug\ServerTools.csprojAssemblyReference.cache
+E:\Demo\Server\Server\ServerTools\obj\Debug\ServerTools.csproj.CoreCompileInputs.cache
+E:\Demo\Server\Server\ServerTools\obj\Debug\ServerTools.dll
+E:\Demo\Server\Server\ServerTools\obj\Debug\ServerTools.pdb

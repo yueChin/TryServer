@@ -1,0 +1,15 @@
+E:\Demo\Server\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\Demo\Server\Server\Server\bin\Debug\ServerTools.dll
+E:\Demo\Server\Server\Server\obj\Debug\Server.exe
+E:\Demo\Server\Server\Server\obj\Debug\Server.pdb
+E:\Demo\Server\Server\Server\bin\Debug\Server.exe.config
+E:\Demo\Server\Server\Server\bin\Debug\Server.exe
+E:\Demo\Server\Server\Server\bin\Debug\Server.pdb
+E:\Demo\Server\Server\Server\obj\Debug\Server.csproj.CopyComplete
+E:\Demo\Server\Server\Server\bin\Debug\GameProtocol.dll
+E:\Demo\Server\Server\Server\bin\Debug\GameProtocol.pdb
+E:\Demo\Server\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\Demo\Server\Server\Server\bin\Debug\ServerTools.pdb
+E:\Demo\Server\Server\Server\bin\Debug\ServerNetFrame.dll
+E:\Demo\Server\Server\Server\bin\Debug\ServerNetFrame.pdb
+E:\Demo\Server\Server\Server\bin\Debug\protobuf-net.dll
